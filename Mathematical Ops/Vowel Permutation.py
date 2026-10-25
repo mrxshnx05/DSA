@@ -3,7 +3,7 @@ s = input()
 consonants = 0
 
 for ch in s:
-    if ch != 'a' and ch != 'e' and ch != 'i' and ch != 'o' and ch != 'u' and ch != 'A' and ch != 'E' and ch != 'I' and ch != 'O' and ch != 'U':
+    if ch not in "aeiouAEIOU":
         consonants += 1
 
 permutations = 0
